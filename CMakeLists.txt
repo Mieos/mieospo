@@ -41,7 +41,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 ##
 #External packages
 ##
-#add_subdirectory(external)
+add_subdirectory(external)
 
 ##########
 #Includes#
@@ -57,6 +57,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 ##
 #External packages
 ##
-#include_directories(
-#   external/externalPackageExample
-#   )
+include_directories(
+   external/externalLibraryExample/include
+   )
