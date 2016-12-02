@@ -1,2 +1,2 @@
 # mieospo
-Mieos Project Organiser : Organise your c++ project
+Mieos Project Organizer : Organise your C++ projects
