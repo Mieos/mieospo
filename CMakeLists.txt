@@ -60,3 +60,8 @@ add_subdirectory(external)
 include_directories(
    external/externalLibraryExample/include
    )
+
+#LIBS
+set(ALL_LIBS
+   MIEOSPO_EXTLIBEXAMPLE_LIB
+   )
