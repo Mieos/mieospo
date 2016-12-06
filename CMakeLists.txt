@@ -65,3 +65,12 @@ include_directories(
 set(ALL_LIBS
    MIEOSPO_EXTLIBEXAMPLE_LIB
    )
+
+###################
+#Generated helpers#
+###################
+#Generated helpers such as paths and others stuffs that can be used in cpp afterward
+#Usefull when you need an absolute path
+add_subdirectory(helpers)
+include_directories(${CMAKE_BINARY_DIR}/generated/helpers )
+
