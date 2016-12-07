@@ -86,3 +86,5 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 #internalLibraryExample
 add_subdirectory(src/internalLibraryExample)
 include_directories(include/internalLibraryExample)
+#Tests
+add_subdirectory(src/tests)
