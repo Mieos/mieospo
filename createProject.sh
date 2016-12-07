@@ -20,13 +20,13 @@ done;
 
 echo $'\n'"Copying files"$'\n'
 
-#cp -v $pathFrom"/CMakeLists.txt" ".."
-#cp -rv $pathFrom"/src" ".."
-#cp -rv $pathFrom"/include" ".."
-#cp -rv $pathFrom"/data" ".."
-#cp -rv $pathFrom"/external" ".."
-#cp -rv $pathFrom"/helpers" ".."
-
-echo $'\n'"Done"$'\n'
+cp -v $pathFrom"/CMakeLists.txt" ".."
+cp -rv $pathFrom"/src" ".."
+cp -rv $pathFrom"/include" ".."
+cp -rv $pathFrom"/data" ".."
+cp -rv $pathFrom"/external" ".."
+cp -rv $pathFrom"/helpers" ".."
 
 rm -rf $realPathFrom
+
+echo $'\n'"Done"$'\n'
