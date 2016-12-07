@@ -74,3 +74,9 @@ set(ALL_LIBS
 add_subdirectory(helpers)
 include_directories(${CMAKE_BINARY_DIR}/generated/helpers )
 
+################
+#Subdirectories#
+################
+#internalLibraryExample
+add_subdirectory(src/internalLibraryExample)
+include_directories(include/internalLibraryExample)
