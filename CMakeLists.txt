@@ -74,6 +74,12 @@ set(ALL_LIBS
 add_subdirectory(helpers)
 include_directories(${CMAKE_BINARY_DIR}/generated/helpers )
 
+#########
+#Outputs#
+#########
+#Set outputs dir
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+
 ################
 #Subdirectories#
 ################
