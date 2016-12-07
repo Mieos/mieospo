@@ -29,4 +29,4 @@ echo $'\n'"Copying files"$'\n'
 
 echo $'\n'"Done"$'\n'
 
-rm -rf $pathFrom
+rm -rf $realPathFrom
