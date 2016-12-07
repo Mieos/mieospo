@@ -3,6 +3,8 @@
 pathFrom=`dirname $0`
 pathCopy=$pathFrom"/.."
 realPathCopy=`realpath $pathCopy`
+realPathFrom=`realpath $pathFrom`
+
 echo $'\n'"This script will copy the mieospo project in the parent directory : $realPathCopy"
 
 while true; do
