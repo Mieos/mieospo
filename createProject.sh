@@ -27,5 +27,4 @@ echo $'\n'"Copying files"$'\n'
 
 echo $'\n'"Done"$'\n'
 
-cd $pathCopy
-rm -rfv mieospo
+rm -rf $pathFrom
