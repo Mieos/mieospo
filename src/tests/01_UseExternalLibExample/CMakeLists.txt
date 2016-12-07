@@ -10,8 +10,8 @@ file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/bin/tests/01_UseExternalLibExample)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/tests/01_UseExternalLibExample)
 
 #Create the binary files
-add_executable(run main.cpp)
+add_executable(test01Run main.cpp)
 
-target_link_libraries(run
+target_link_libraries(test01Run
    MIEOSPO_EXTLIBEXAMPLE_LIB
    )
